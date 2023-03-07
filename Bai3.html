@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+  let x = parseInt(prompt(' nhập X'))
+  console.log(giaiThua(x));
+  function giaiThua(x){
+    let sum = 1;
+    for (let i = 1; i <= x; i++){
+      // sum = sum * i;
+      sum *= i;
+    }
+    return sum;
+  }
+</script>
+</html>

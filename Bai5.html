@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+  let a = parseInt(prompt('Nhập a'));
+  let b = parseInt(prompt('Nhập b '));
+  let c = parseInt(prompt('Nhập c'));
+  console.log(interX(a, b, c))
+  function interX(a, b ,c){
+    if (a > b && a > c){
+      return a;
+    } else if (b > a && b > c){
+      return a;
+    } else if (c > a && c > b){
+      return c;
+    }else {
+      return console.log('3 số bằng nhau hoặc 2 số đang trùng nhau');
+    }
+  }
+</script>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+  let a = parseInt(prompt('Nhập a'));
+  let b = parseInt(prompt('Nhập b'));
+  console.log(changeNum(a, b));
+  function changeNum(a, b){
+    let changeN;
+    // return changeN = [a, b] = [b, a]; // vcl trả về mảng ạ, convert sang chuỗi sài toString hoặc join
+      return [a,b].reverse() // thằng này cũng trả về mảng, phải convert sang string :D
+  }
+</script>
+</html>
